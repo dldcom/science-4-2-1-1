@@ -1,0 +1,227 @@
+{
+  "generated_at_utc": "2026-08-13T01:53:43.255028+00:00",
+  "runtime_size": [
+    2048,
+    1024
+  ],
+  "sources": {
+    "color": {
+      "url": "https://svs.gsfc.nasa.gov/vis/a000000/a004700/a004720/lroc_color_16bit_srgb_4k.tif",
+      "file": "moon-color-2k.jpg",
+      "source_detail": "NASA 4K 16-bit sRGB map converted to 2K JPEG"
+    },
+    "height": {
+      "url": "https://svs.gsfc.nasa.gov/vis/a000000/a004700/a004720/ldem_16_uint.tif",
+      "file": "moon-height-2k.webp",
+      "source_size": [
+        5760,
+        2880
+      ],
+      "source_mode": "I;16",
+      "source_range": [
+        2037,
+        41371
+      ],
+      "runtime_size": [
+        2048,
+        1024
+      ]
+    },
+    "early_crust_height": {
+      "url": "https://svs.gsfc.nasa.gov/vis/a000000/a004700/a004720/ldem_16_uint.tif",
+      "file": "moon-early-crust-height-2k.webp",
+      "runtime_size": [
+        2048,
+        1024
+      ],
+      "source": "NASA LOLA elevation map",
+      "method": "96x48 low-frequency elevation remapped to a narrow early-crust relief range",
+      "relief_amplitude": "approximately 15% of the detailed runtime height range"
+    }
+  },
+  "assets": {
+    "moon-color-2k.jpg": {
+      "bytes": 419655,
+      "sha256": "c24e5fdc8502a490192edb9bde11718dfc8232ff7b0fc20ce6785aeb767bf197"
+    },
+    "moon-height-2k.webp": {
+      "bytes": 110692,
+      "sha256": "cf32157914ffe61285cc5b3fbb4608f0a4e82f84e132c36d1f10b8e18e28ecbb"
+    },
+    "moon-early-crust-height-2k.webp": {
+      "bytes": 5574,
+      "sha256": "61625c3c1bf75c408ed3f0ce6245452e47be3d5dba9a5350aae09edcdd31460f"
+    },
+    "moon-early-crust-2k.webp": {
+      "bytes": 24040,
+      "sha256": "dba89826b32d763b19adaf3cf7e9220d72beaf82bf1a5bb1f089d8aeb6196846"
+    },
+    "moon-basalt-2k.webp": {
+      "bytes": 45510,
+      "sha256": "f8b9b383251570782183cd8f246090f445b8f81f55da243d9ab044c1a8519f44"
+    },
+    "moon-basin-mask-2k.webp": {
+      "bytes": 8330,
+      "sha256": "a567a2f9ec300cbefe100dded6e26d32e8b44a51e18a83034f77b6e3c2137579"
+    },
+    "moon-cracks-2k.webp": {
+      "bytes": 5034,
+      "sha256": "cee0eb1615c5c5c3fe9c5ff63aa0b722397564f8edccd11667bcfdc981a36857"
+    },
+    "moon-lava-arrival-2k.webp": {
+      "bytes": 8334,
+      "sha256": "e7b5bb6c3f7503573fff91cae0b4abe9abf8147891f0f71072bc75b22a2fd6f7"
+    },
+    "moon-crater-decal-512.webp": {
+      "bytes": 17974,
+      "sha256": "580c66d393e14c3e08b9db2002d04b9ced2978a9d2c3cf9b456a50353a1ba3d2"
+    },
+    "moon-meteor-256.webp": {
+      "bytes": 29986,
+      "sha256": "39a231a099a69361320f0f05259ddf21e9a3aeb69b4c2346544b9ebf919e949e"
+    },
+    "moon-meteor-normal-256.webp": {
+      "bytes": 29722,
+      "sha256": "31391ce6fd7719f41843707ce0f3de8b97d4099ddad30d7fe4617ae1ba86f20e"
+    },
+    "moon-meteor-roughness-256.webp": {
+      "bytes": 10088,
+      "sha256": "d4f136cc07fe2b64295012ff5ad7d8ae8df06b4b14c74bc44049e8fe9101e82f"
+    },
+    "moon-meteor-trail-256.webp": {
+      "bytes": 7112,
+      "sha256": "0a7e158a5cb0d06821a61b747490bc8c4c63e02550af5ec9f4864c6dc47e77df"
+    },
+    "moon-impact-shockwave-256.webp": {
+      "bytes": 11502,
+      "sha256": "41db4f4ff750514ee88db6cd74c82c2ddefab8a5c9fc524d0e6b79a8bad35fb4"
+    },
+    "moon-impact-flash-256.webp": {
+      "bytes": 7052,
+      "sha256": "fb7ea39481bd060af5fe58237ece588bc51ba52feda0e3dd4e0af66268e0e9be"
+    },
+    "moon-impact-dust-256.webp": {
+      "bytes": 7452,
+      "sha256": "bc793a852d17bf29ada3e60d5c5f038699501155afa3aa87eefd26c3c5c5ff09"
+    }
+  },
+  "derived_materials": {
+    "early_crust": {
+      "runtime_size": [
+        2048,
+        1024
+      ],
+      "method": "NASA color map low-relief crust rematerialized at 256x128 with broad mineral texture and subdued high-frequency detail"
+    },
+    "basalt": {
+      "runtime_size": [
+        2048,
+        1024
+      ],
+      "method": "NASA color map low-contrast basaltic cooling material"
+    },
+    "basin_mask": {
+      "runtime_size": [
+        2048,
+        1024
+      ],
+      "method": "NASA LOLA low-elevation threshold constrained by a broad primary-basin guide",
+      "low_elevation_threshold": 96,
+      "guide_center_uv": [
+        0.25,
+        0.47
+      ]
+    },
+    "cracks": {
+      "runtime_size": [
+        2048,
+        1024
+      ],
+      "paths": 2,
+      "method": "short deterministic basin-fracture branches without synthetic cross-lines"
+    },
+    "lava_arrival": {
+      "runtime_size": [
+        2048,
+        1024
+      ],
+      "paths": 2,
+      "method": "nearest-path arrival distance from fissure sources with shared flow schedule",
+      "flow_schedule": [
+        {
+          "id": "fissure-01",
+          "start": 0.0,
+          "end": 0.55
+        },
+        {
+          "id": "fissure-02",
+          "start": 0.58,
+          "end": 0.78
+        }
+      ]
+    },
+    "crater_decal": {
+      "runtime_size": [
+        512,
+        512
+      ],
+      "method": "low-contrast mottled impact bowl, uneven rim, and non-radial ejecta texture"
+    },
+    "meteor": {
+      "runtime_size": [
+        256,
+        256
+      ],
+      "method": "generated carbonaceous-chondrite surface reference, desaturated for a matte rocky albedo",
+      "reference": "meteor-material-reference.png"
+    },
+    "meteor_normal": {
+      "runtime_size": [
+        256,
+        256
+      ],
+      "method": "albedo-derived tangent-space normal map with restrained micro-relief"
+    },
+    "meteor_roughness": {
+      "runtime_size": [
+        256,
+        256
+      ],
+      "method": "high-roughness dusty stone map derived from meteor albedo"
+    },
+    "meteor_trail": {
+      "runtime_size": [
+        256,
+        256
+      ],
+      "method": "procedural irregular smoky-hot meteor wake"
+    },
+    "impact_shockwave": {
+      "runtime_size": [
+        256,
+        256
+      ],
+      "method": "procedural broken shockwave and irregular ejecta halo"
+    },
+    "impact_flash": {
+      "runtime_size": [
+        256,
+        256
+      ],
+      "method": "procedural hot impact flash with noisy radial falloff"
+    },
+    "impact_dust": {
+      "runtime_size": [
+        256,
+        256
+      ],
+      "method": "procedural low asymmetric lunar-regolith dust shelf with lumpy granular edges; no radial streaks"
+    }
+  },
+  "notes": [
+    "The color and elevation data are NASA CGI Moon Kit derivatives.",
+    "The basin mask constrains NASA LOLA low-elevation data to a broad primary-basin guide so unrelated lowlands do not become one lava field.",
+    "The early-crust, basalt, crater, meteor, and crack materials are runtime derivatives or procedural overlays; they are not new NASA geological classifications.",
+    "Source TIFF files are preparation-only and are not shipped to the browser."
+  ]
+}

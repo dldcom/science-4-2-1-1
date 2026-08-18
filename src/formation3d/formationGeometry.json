@@ -1,0 +1,36 @@
+{
+  "initialImpacts": [
+    { "id": "impact-01", "role": "basin-forming", "uv": [0.25, 0.47], "radius": 0.24, "size": 1.0, "impactorScale": 2.1, "depth": 0.1, "rimHeight": 0.055, "ejectaScale": 3.2 },
+    { "id": "impact-02", "uv": [0.33, 0.39], "radius": 0.092, "size": 0.82, "depth": 0.056, "rimHeight": 0.031, "ejectaScale": 2.05 },
+    { "id": "impact-03", "uv": [0.18, 0.57], "radius": 0.12, "size": 1.12, "depth": 0.064, "rimHeight": 0.035, "ejectaScale": 2.25 },
+    { "id": "impact-04", "uv": [0.39, 0.53], "radius": 0.075, "size": 0.72, "depth": 0.047, "rimHeight": 0.027, "ejectaScale": 1.85 }
+  ],
+  "finalImpacts": [
+    { "id": "final-impact-01", "uv": [0.28, 0.44], "radius": 0.052, "size": 0.58, "depth": 0.028, "rimHeight": 0.017, "ejectaScale": 1.55 },
+    { "id": "final-impact-02", "uv": [0.16, 0.37], "radius": 0.06, "size": 0.68, "depth": 0.032, "rimHeight": 0.019, "ejectaScale": 1.62 },
+    { "id": "final-impact-03", "uv": [0.31, 0.61], "radius": 0.048, "size": 0.5, "depth": 0.025, "rimHeight": 0.015, "ejectaScale": 1.48 }
+  ],
+  "basinTarget": [0.25, 0.47],
+  "lavaPaths": [
+    {
+      "id": "fissure-01",
+      "role": "main-flow",
+      "flowStart": 0.00,
+      "flowEnd": 0.55,
+      "points": [[0.37, 0.31], [0.35, 0.35], [0.31, 0.40], [0.25, 0.47]],
+      "width": 1.0
+    },
+    {
+      "id": "fissure-02",
+      "role": "branch",
+      "flowStart": 0.58,
+      "flowEnd": 0.78,
+      "points": [[0.17, 0.36], [0.22, 0.38], [0.27, 0.40], [0.31, 0.40]],
+      "width": 0.58
+    }
+  ],
+  "crackPaths": [
+    [[0.37, 0.31], [0.35, 0.35], [0.31, 0.40], [0.25, 0.47]],
+    [[0.17, 0.36], [0.22, 0.38], [0.27, 0.40], [0.31, 0.40]]
+  ]
+}

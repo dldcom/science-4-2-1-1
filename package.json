@@ -1,0 +1,28 @@
+{
+  "name": "science-moon-observatory",
+  "version": "0.1.0",
+  "private": true,
+  "type": "module",
+  "description": "초등학교 4학년 과학 1. 달의 생김새가 궁금해! 인터랙티브 관찰 앱",
+  "scripts": {
+    "dev": "vite --host 0.0.0.0",
+    "build": "vite build",
+    "preview": "vite preview --host 0.0.0.0",
+    "test": "vitest run --passWithNoTests"
+  },
+  "dependencies": {
+    "@react-three/drei": "^10.7.8",
+    "@react-three/fiber": "^9.7.0",
+    "openseadragon": "^6.1.0",
+    "react": "^19.2.8",
+    "react-dom": "^19.2.8",
+    "three": "^0.180.0"
+  },
+  "devDependencies": {
+    "@vitejs/plugin-react": "^6.0.5",
+    "jsdom": "^29.1.1",
+    "playwright-core": "^1.62.1",
+    "vite": "^8.2.0",
+    "vitest": "^4.1.10"
+  }
+}

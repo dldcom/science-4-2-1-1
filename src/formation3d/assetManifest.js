@@ -1,0 +1,18 @@
+export const FORMATION_ASSETS = Object.freeze({
+  color: '/assets/moon-formation/moon-color-2k.jpg',
+  earlyCrust: '/assets/moon-formation/moon-early-crust-2k.webp',
+  basalt: '/assets/moon-formation/moon-basalt-2k.webp',
+  height: '/assets/moon-formation/moon-height-2k.webp',
+  earlyCrustHeight: '/assets/moon-formation/moon-early-crust-height-2k.webp',
+  basinMask: '/assets/moon-formation/moon-basin-mask-2k.webp',
+  crackMask: '/assets/moon-formation/moon-cracks-2k.webp',
+  lavaArrival: '/assets/moon-formation/moon-lava-arrival-2k.webp',
+  craterDecal: '/assets/moon-formation/moon-crater-decal-512.webp',
+  meteor: '/assets/moon-formation/moon-meteor-256.webp',
+  meteorNormal: '/assets/moon-formation/moon-meteor-normal-256.webp',
+  meteorRoughness: '/assets/moon-formation/moon-meteor-roughness-256.webp',
+  meteorTrail: '/assets/moon-formation/moon-meteor-trail-256.webp',
+  impactShockwave: '/assets/moon-formation/moon-impact-shockwave-256.webp',
+  impactFlash: '/assets/moon-formation/moon-impact-flash-256.webp',
+  impactDust: '/assets/moon-formation/moon-impact-dust-256.webp',
+});
